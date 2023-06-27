@@ -1,7 +1,7 @@
 {
   "a51ea3a8-f1b0-4613-9440-b80e2236713b": {
     "id": "a51ea3a8-f1b0-4613-9440-b80e2236713b",
-    "snapId": "npm:@metamask/snap-simple-keyring",
+    "snapId": "npm:@metamask/snap-simple-keyring-snap",
     "iconUrl": "",
     "snapTitle": "Metamask Simple Keyring",
     "snapSlug": "Secure your account with MetaMask Mobile",
@@ -10,7 +10,7 @@
     "developer": "Metamask",
     "website": "https://www.consensys.net/",
     "auditUrls": ["auditUrl1", "auditUrl2"],
-    "version": "1.0.0",
+    "version": "0.1.2",
     "lastUpdated": "April 20, 2023"
   },
   "1f2fd474-107c-408b-be0d-f4b312156b87": {
