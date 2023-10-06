@@ -9,8 +9,8 @@
     "tags": ["EOA"],
     "developer": "MetaMask",
     "website": "https://metamask.github.io/snap-simple-keyring/latest/",
-    "auditUrls": ["https://example.org"],
-    "version": "0.2.3",
-    "lastUpdated": "Sep 19, 2023"
+    "auditUrls": [],
+    "version": "0.2.4",
+    "lastUpdated": "Oct 5, 2023"
   }
 }

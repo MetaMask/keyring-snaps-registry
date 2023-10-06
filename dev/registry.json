@@ -10,8 +10,8 @@
     "developer": "MetaMask",
     "website": "https://www.consensys.net/",
     "auditUrls": ["auditUrl1", "auditUrl2"],
-    "version": "0.1.2",
-    "lastUpdated": "April 20, 2023"
+    "version": "0.2.4",
+    "lastUpdated": "Oct 5, 2023"
   },
   "1f2fd474-107c-408b-be0d-f4b312156b87": {
     "id": "1f2fd474-107c-408b-be0d-f4b312156b87",
@@ -51,7 +51,7 @@
     "tags": ["MPC", "Shared Custody"],
     "developer": "MetaMask",
     "website": "http://localhost:8000/",
-    "auditUrls": ["auditUrl1", "auditUrl2"],
+    "auditUrls": [],
     "version": "0.0.1",
     "lastUpdated": "April 20, 2023"
   }
