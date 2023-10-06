@@ -9,7 +9,7 @@
     "tags": ["EOA"],
     "developer": "MetaMask",
     "website": "https://www.consensys.net/",
-    "auditUrls": ["auditUrl1", "auditUrl2"],
+    "auditUrls": [],
     "version": "0.2.4",
     "lastUpdated": "Oct 5, 2023"
   },
@@ -23,7 +23,7 @@
     "tags": ["4337", "Smart Contract"],
     "developer": "MetaMask",
     "website": "https://www.consensys.net/",
-    "auditUrls": ["auditUrl1", "auditUrl2"],
+    "auditUrls": [],
     "version": "1.0.0",
     "lastUpdated": "April 20, 2023"
   },
@@ -37,7 +37,7 @@
     "tags": ["MPC", "Shared Custody"],
     "developer": "MetaMask",
     "website": "https://tss.ac/",
-    "auditUrls": ["auditUrl1", "auditUrl2"],
+    "auditUrls": [],
     "version": "1.0.0",
     "lastUpdated": "April 20, 2023"
   },
