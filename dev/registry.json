@@ -1,16 +1,1450 @@
 {
-  "a51ea3a8-f1b0-4613-9440-b80e2236713b": {
-    "id": "a51ea3a8-f1b0-4613-9440-b80e2236713b",
-    "snapId": "npm:@metamask/snap-simple-keyring-snap",
-    "iconUrl": "",
-    "snapTitle": "MetaMask Simple Keyring",
-    "snapSlug": "Secure your account with MetaMask Mobile",
-    "snapDescription": "A simple private key is a randomly generated string of characters that is used to sign transactions. This private key is stored securely within this snap.",
-    "tags": ["EOA"],
-    "developer": "MetaMask",
-    "website": "https://metamask.github.io/snap-simple-keyring/latest/",
-    "auditUrls": [],
-    "version": "0.2.4",
-    "lastUpdated": "Oct 5, 2023"
-  }
+  "verifiedSnaps": {
+    "npm:@metamask/snap-simple-keyring-snap": {
+      "id": "npm:@metamask/snap-simple-keyring-snap",
+      "metadata": {
+        "name": "MetaMask Simple Keyring",
+        "author": {
+          "name": "MetaMask",
+          "website": "https://metamask.github.io/snap-simple-keyring/latest/"
+        },
+        "summary": "Secure your account with a Private Key",
+        "description": "A simple private key is a randomly generated string of characters that is used to sign transactions. This private key is stored securely within this snap.",
+        "audits": [],
+        "tags": ["EOA"],
+        "category": "key management",
+        "support": {},
+        "sourceCode": "https://github.com/metamask/snap-simple-keyring"
+      },
+      "versions": {
+        "0.2.4": {
+          "checksum": "fhKGcx3qfv/93ZWnwW2Q7L0W1STExHOGHDp9VMVZk3Q="
+        }
+      }
+    },
+    "npm:@chainsafe/aleo-snap": {
+      "id": "npm:@chainsafe/aleo-snap",
+      "metadata": {
+        "name": "Aleo",
+        "author": {
+          "name": "ChainSafe",
+          "website": "https://chainsafe.io/"
+        },
+        "summary": "Enables MetaMask users to interact with Aleo blockchain.",
+        "description": "Enables MetaMask users to interact with Aleo blockchain.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-aleo/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/xSAwrnCWcg"
+        },
+        "sourceCode": "https://github.com/ChainSafe/aleo-snap"
+      },
+      "versions": {
+        "1.2.0": {
+          "checksum": "DB8uCN9I0YY19mPwwsYrRyHoJbRXDNrs5cf/ZJX+Wmc="
+        }
+      }
+    },
+    "npm:@algorandfoundation/algorand-metamask-snap": {
+      "id": "npm:@algorandfoundation/algorand-metamask-snap",
+      "metadata": {
+        "name": "Algorand Wallet",
+        "author": {
+          "name": "Algorand Foundation",
+          "website": "https://www.algorand.foundation/"
+        },
+        "summary": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
+        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.\n\nAlgorand is a scalable layer-1 blockchain powered by the Pure Proof-of-Stake consensus mechanism with quick block times and instant finality.\n\nWebsite coming soon.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Sampled-Public-Audit-Reports-a296e98838aa4fdb8f3b192663400772?p=b25b9f3a52ab4821914f379ff0d3ec62&pm=s"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:snap-algo@algorand.foundation"
+        },
+        "sourceCode": "https://github.com/algorandfoundation/algo-metamask"
+      },
+      "versions": {
+        "10.0.2": {
+          "checksum": "Ac+HbVc2OlKU9zIGvp7JzHfuyNh4u1hiE3EC/tHIER0="
+        }
+      }
+    },
+    "npm:walletchat-metamask-snap": {
+      "id": "npm:walletchat-metamask-snap",
+      "metadata": {
+        "name": "app.walletchat.fun",
+        "author": {
+          "name": "WalletChat",
+          "website": "https://www.walletchat.fun/"
+        },
+        "website": "https://app.walletchat.fun/",
+        "summary": "Wallet-to-wallet chat notifications via WalletChat.fun.",
+        "description": "Get WalletChat.fun message notifications directly in your MetaMask!\n\nAfter installing the Snap, visit the website to start using WalletChat.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://drive.google.com/file/d/1pNhN43mMOLiA2jWUF5IbJA-5kmfAod1f/view?usp=drive_link"
+          },
+          {
+            "auditor": "Cure53",
+            "report": "https://drive.google.com/file/d/1dixJw4G4ekcO40GpbH7VmizLTINS5gUL/view?usp=drive_link"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
+          "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
+          "contact": "mailto:contact@walletchat.fun"
+        },
+        "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
+      },
+      "versions": {
+        "0.2.2": {
+          "checksum": "3A61a9PBllUtH9B0HVh7aHVoSBwouuM7eNMJga0p/q0="
+        },
+        "0.2.1": {
+          "checksum": "IV0FlbWNvx5HJUxqNWVXizRVwmib/aVmi7jjZhVAuXw="
+        }
+      }
+    },
+    "npm:casper-manager": {
+      "id": "npm:casper-manager",
+      "metadata": {
+        "name": "Casper Manager",
+        "author": {
+          "name": "Div3",
+          "website": "https://casperholders.io/"
+        },
+        "website": "https://testnet.casperholders.io/",
+        "summary": "Sign deploys and messages for the Casper Blockchain with your Casper account(s)",
+        "description": "Sign deploys and messages for the Casper Blockchain with your Casper account(s).\n\nAfter installing, visit the website to interact with the Casper Blockchain. You can also connect to the block explorer at https://div3.in",
+        "audits": [
+          {
+            "auditor": "Halborn",
+            "report": "https://github.com/casper-ecosystem/casper-manager/blob/main/audits/20_06_2023_Casper_Management_Snap_App_WebApp_Pentest_Report_Halborn_Final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/casperblockchain",
+          "faq": "https://github.com/casper-ecosystem/casper-manager/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/casper-ecosystem/casper-manager"
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "QrcMLvXc2lTNWdgzWeMp83YUAk3XIUs27Ivm7iizD60="
+        }
+      }
+    },
+    "npm:wallet-guard-snap": {
+      "id": "npm:wallet-guard-snap",
+      "metadata": {
+        "name": "Wallet Guard",
+        "author": {
+          "name": "Wallet Guard",
+          "website": "https://www.walletguard.app/"
+        },
+        "website": "https://www.walletguard.app/snap",
+        "summary": "Protect your crypto with transaction insights and proactive security alerts.",
+        "description": "Protect your crypto. Wallet Guard supports transaction simulation and automated approval revoking reminders for you. Stop guessing about your transactions when performing swaps, claims, and mints!",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/07/wallet-guard/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.com/invite/mvbtaJzXDP",
+          "faq": "https://walletguard.notion.site/Wallet-Guard-Snap-Frequently-Asked-Questions-FAQ-4e732cf0892846368048ed6e5f53a51a",
+          "knowledgeBase": "https://walletguard.notion.site/Wallet-Guard-Snap-Knowledge-Base-8839534090e444d792e1b3aa86e0a762"
+        },
+        "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "2yoyqVvqwRxZSasmeFXqWd2+BZNiIBr1CFM9ZQR2EsM="
+        },
+        "1.0.1": {
+          "checksum": "mv4xJVdaBEdavHcluuEkD5BzFdjT9CzyjtKFAWxP28s="
+        }
+      }
+    },
+    "npm:@pushprotocol/snap": {
+      "id": "npm:@pushprotocol/snap",
+      "metadata": {
+        "name": "Push",
+        "author": {
+          "name": "Push Protocol",
+          "website": "https://push.org/"
+        },
+        "website": "https://app.push.org/snap",
+        "summary": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask.",
+        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask. With Push Snap, you can now seamlessly receive notifications powered by Push Protocol directly in your wallet, ensuring you never miss out on important updates from the channels that you subscribe to.\n\nAfter installing the Snap, visit the website to connect the Snap with the Push dashboard and start receiving notifications in MetaMask. You can manage your subscriptions from the dashboard. Steps:\n\n1) Once successfully connected / installed the Snap will redirect to Push Channels Dapp\n\n2) Here you can opt-in to your favourite channels to receive notifications\n\n3) Once done, you can go back to the Snap Settings Page\n\n4) With the connected wallet, click on Add Address (this allows you to add an address for which you prefer to receive notifications), then sign the message to complete the process\n\n5) Now you are all set. You will receive notifications directly in MetaMask for that address thanks to the Push V1 Snap.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/07/push-protocol-snap-for-metamask/"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "contact": "https://discord.com/invite/pushprotocol",
+          "faq": "https://www.notion.so/Push-Snap-FAQs-c034d65ab01240bdb5acdfb4ea4b8320",
+          "knowledgeBase": "https://pushprotocol.notion.site/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943"
+        },
+        "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
+      },
+      "versions": {
+        "1.0.7": {
+          "checksum": "qifjW8nfLF3XNux2spj0eEk1u3ViEIMawjz1lREGc14="
+        }
+      }
+    },
+    "npm:@tuum-tech/identify": {
+      "id": "npm:@tuum-tech/identify",
+      "metadata": {
+        "name": "Identify",
+        "author": {
+          "name": "Tuum Technologies",
+          "website": "https://www.tuum.tech/"
+        },
+        "website": "https://www.tuum.tech/identify",
+        "summary": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.",
+        "description": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.\n\nVisit the website to learn how to integrate Identify into your dapps.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://github.com/tuum-tech/identify/blob/main/SNAP_AUDIT_REPORT_BY_CURE53.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:developer@tuum.tech",
+          "faq": "https://docs.tuum.tech/identify/basics/faqs",
+          "knowledgeBase": "https://docs.tuum.tech/identify"
+        },
+        "sourceCode": "https://github.com/tuum-tech/identify"
+      },
+      "versions": {
+        "1.5.0": {
+          "checksum": "ECg9tSmTGnEohIna/s0ECP3nGSyo1r3sue3QUU8xwlE="
+        }
+      }
+    },
+    "npm:blockfence-insights": {
+      "id": "npm:blockfence-insights",
+      "metadata": {
+        "name": "Blockfence",
+        "author": {
+          "name": "Blockfence",
+          "website": "https://blockfence.io/"
+        },
+        "website": "https://blockfence.io/snap/",
+        "summary": "Blockfence empowers you to evaluate the safety of your transactions before giving them a green light. This ensures you steer clear of scams and fraudulent activities.",
+        "description": "Blockfence empowers you to evaluate the safety of your transactions before giving them a green light. This ensures you steer clear of scams and fraudulent activities. Moreover, Blockfence Snap consolidates information from industry security leaders, providing clarity on the dAPPs you engage with, the contracts you transact with, and much more.\n\nAfter installing the Snap, you will see it in the transaction confirmation window.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/blog/audits/audit-of-blockfence-metamask-snap/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@blockfence.io",
+          "faq": "https://blockfence.io/snap/"
+        },
+        "sourceCode": "https://github.com/blockfence-io/snap-insights"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "vcMyFWDfB2eKE1pBjCE8E+2ZkZKsm+uQQDhoLGsZk8Y="
+        }
+      }
+    },
+    "npm:@metamask/bip32-example-snap": {
+      "id": "npm:@metamask/bip32-example-snap",
+      "metadata": {
+        "name": "BIP-32 Example Snap"
+      },
+      "versions": {
+        "0.35.0-flask.1": {
+          "checksum": "nSL22rF7OWVCYzaj9B+7tUgRWCw8oMfi2r0utoJH6rg="
+        },
+        "0.35.2-flask.1": {
+          "checksum": "cOJYxa17Mn160j/YH8887WOpGFVl0N0c2TK4WBfpdh0="
+        },
+        "0.37.2-flask.1": {
+          "checksum": "9zlU1HnaCKIKeIYLWAZMpKKGhniZz3uCfL6lMi6HxmU="
+        },
+        "0.37.3-flask.1": {
+          "checksum": "q09kHX1Yh6y5o3ttFwB+ZVM6FOElyy3qqvoyYCWHiSQ="
+        },
+        "1.0.0": {
+          "checksum": "J3MpNxvOJdEwGq+zeIHh05yOsAoS8q2AqlTT5PLAkf8="
+        }
+      }
+    },
+    "npm:@metamask/bip44-example-snap": {
+      "id": "npm:@metamask/bip44-example-snap",
+      "metadata": {
+        "name": "BIP-44 Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "1wPZsEPMVO88H3Lt1XBqz9BiKT3QV1ruIcqJQN9bLNY="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "greQKnNTgVqeKdtbMiyIdng09Jy/u6bK2ctZkzy0hdY="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "w3Sp0Y7HB+uqHgv1L6S+V+Q7TW10/mUD7+jbbMUgz0g="
+        },
+        "1.0.0": {
+          "checksum": "JKHoUebJ9c2urnFcUO06lKbtCcAOW3CaRGSImdpDG34="
+        }
+      }
+    },
+    "npm:@metamask/cronjob-example-snap": {
+      "id": "npm:@metamask/cronjob-example-snap",
+      "metadata": {
+        "name": "Cronjob Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "M8rlf48QIGa4Dk8X/EM9OgQUwrhvCpQyrJkv8FMVYkM="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "2X5dKpZLlpO/b3sL2FLCLAjGvsamMh4jP/HRkwWeknI="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "uMXNv7TEb5zPsMIS8kfcX5HbvPdjIiUdj3zP05DuV+w="
+        },
+        "1.0.0": {
+          "checksum": "rvezXlgNZfZl22VCm9paR8ZQBkEW6MMhsjHJsZ88mgU="
+        }
+      }
+    },
+    "npm:@metamask/dialog-example-snap": {
+      "id": "npm:@metamask/dialog-example-snap",
+      "metadata": {
+        "name": "Dialog Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "JTisnR3icqN8BSTKQEhgx3unm8JbSHeyJ2nM29arcrE="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "ovAw6BvnbeNMcF3DwmhqKzYSEBOo1sxYRi6kDDv3WdQ="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "slwFtkG5J8ldBG0JUL3EvAW5+0NGKERXcXdlIyCImqM="
+        },
+        "1.0.0": {
+          "checksum": "Tcm1oNE+DXYHjyz6Eeb1+SycfrpMQnEpJv+0++BoZss="
+        }
+      }
+    },
+    "npm:@metamask/error-example-snap": {
+      "id": "npm:@metamask/error-example-snap",
+      "metadata": {
+        "name": "Error Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "bO6Nz4mmWwLZodzNJIzt9Fw9V4IV5luD/vFjMA9bNZQ="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "WXWIhv3YhG8JuPwZ1SnTgFv9ZaBNAKOermQ5bWU8a1Q="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "fRj3eRk7NIBp3Bd/Ji3rCIcMQy65psytCBFIQFo2G6s="
+        },
+        "1.0.0": {
+          "checksum": "Wa5LuPosJ5nAXu55PlzY9nk41VRuVmo3LcOdLaIbjq0="
+        }
+      }
+    },
+    "npm:@metamask/ethereum-provider-example-snap": {
+      "id": "npm:@metamask/ethereum-provider-example-snap",
+      "metadata": {
+        "name": "Ethereum Provider Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "iqnHsz3ns+0TpnqmZOkVen+ySQxXDhb7LU6SWWpksB8="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "02i/AryMkfxh6jeOXWKjyaBCLCzaKXADhRc/dWfsmEg="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "+C2UG75icr02O2XPKLPaYAba1KsKg12qQDOMWmJ1li0="
+        },
+        "1.0.0": {
+          "checksum": "CwJGR0Jll1DjOt3kpxD6l4utazQFokN95bqWCOToFKI="
+        }
+      }
+    },
+    "npm:@metamask/ethers-js-example-snap": {
+      "id": "npm:@metamask/ethers-js-example-snap",
+      "metadata": {
+        "name": "Ethers.js Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "C3XZa2lDh8LWVZNQmn3Ns/ZByyZTFz7zznClGMen4Yg="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "P6Tvtbs6qn77XI7xQVbBNmd1Sp8WRdAfFrGpLQODabA="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "ydfyZetMKS1Z6iJEgaC51yZ2kPdCAwnciuM0TC9oDBs="
+        },
+        "1.0.0": {
+          "checksum": "QY3seNbkU81kQ25hpBICjcMUK41iI0tYUlwqsiWbVCo="
+        }
+      }
+    },
+    "npm:@metamask/get-entropy-example-snap": {
+      "id": "npm:@metamask/get-entropy-example-snap",
+      "metadata": {
+        "name": "Get Entropy Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "3ngy5lgb166/id89vLEsA10MjtHAbyWoCM/y2foLyMs="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "mtAscMuF0zF1TIVUBmoSc/Vc1xP2vQR7GCw+fIx08vE="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "RftaRiY4VJewuY8jTQPrtxJ4oqBK9h2E4bTMiNQJkgE="
+        },
+        "1.0.0": {
+          "checksum": "jz0qC13DGpmyhERi+4iQRk1EpogtRkOd5cE5T8uKb6I="
+        }
+      }
+    },
+    "npm:@metamask/json-rpc-example-snap": {
+      "id": "npm:@metamask/json-rpc-example-snap",
+      "metadata": {
+        "name": "JSON-RPC Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "wMGE+zthQo8NHhhFulqYOOrdxtCQkveQt8MgZIAQSUA="
+        },
+        "0.37.3-flask.1": {
+          "checksum": "Vjp8paYaHuaEZzNA1KmLTSEHNvO5BxO5g8m58+92gDY="
+        },
+        "1.0.0": {
+          "checksum": "gKdBa0h+SZKNu6WFHFps5W1ly7WNTU2lrrOsyy7Z7VU="
+        }
+      }
+    },
+    "npm:@metamask/manage-state-example-snap": {
+      "id": "npm:@metamask/manage-state-example-snap",
+      "metadata": {
+        "name": "Manage State Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "RcjOYLrBT5ZBOqHxXr/+g2L6hgqRALFCco+P/z9HvIs="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "d4qYxIOdz869tdC5v6C8JzkS2fHRyJ33OeH3sqoUUEw="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "mK8k9cUJX4aMrC0wnljGS7H9kDXY5h8atsu+Av3QyYI="
+        },
+        "1.0.0": {
+          "checksum": "56wgGzkHUCLNO3MxSciVCRIfy67gmEfBW6MeB0rMe5Q="
+        }
+      }
+    },
+    "npm:@metamask/network-example-snap": {
+      "id": "npm:@metamask/network-example-snap",
+      "metadata": {
+        "name": "Network Access Test Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "WA9XsjYi5NlQGz19iXBL0R7QVfUna3GAPZmUpb81gHM="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "/xrzK+LNyXfupec9dDNUM6AGROGkJzIzrnnn5++j/Z0="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "YXxtxjP6SbPiDHzskryvh0QA6Hvv/FurI+GwNN8WF0U="
+        },
+        "0.38.2-flask.1": {
+          "checksum": "gietRn5VTciRfESWtWnTLKykNCZbTuIY7sRFhyTYkJI="
+        },
+        "1.0.0": {
+          "checksum": "6yhB3CDYFp1NILq/F8Y25mKCDRNdn1DjPYl8hUqd/Js="
+        }
+      }
+    },
+    "npm:@metamask/notification-example-snap": {
+      "id": "npm:@metamask/notification-example-snap",
+      "metadata": {
+        "name": "Notifications Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "C3zDF0V9lFhFymAc3UJEryLY8uJw5eR5zSHUvQCAjGY="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "ATRtqsBVScH5op0YokHjsg0Sj5WjggEIJ2I1cs6OI3k="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "yVIjEtJtZA6UXqh9auF2KfI2kBS3TU1kXTPKNUX+7Ms="
+        },
+        "1.0.0": {
+          "checksum": "uq9ZlrcyEVDZ3iAFoxI3j6Ocu4Pp6VVp7P+nMjVhE80="
+        }
+      }
+    },
+    "npm:@metamask/insights-example-snap": {
+      "id": "npm:@metamask/insights-example-snap",
+      "metadata": {
+        "name": "Insights Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "jGSkiBXrmxd2lWtUtYQUni7gl2bGL4Dsep8pLbmJfzM="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "7GvuWK7PaCWGnZx9MCrE2xttCOFsDzzIV2B4SPYCSDQ="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "9leaWB2VbcMzyGfUSwOlBRnz0m94AwAE74011uLthfY="
+        },
+        "1.0.0": {
+          "checksum": "8V8IDFAjnJro0x76n9qcAEHMQiWJXGEB33R8PzICy3E="
+        }
+      }
+    },
+    "npm:@metamask/wasm-example-snap": {
+      "id": "npm:@metamask/wasm-example-snap",
+      "metadata": {
+        "name": "WebAssembly Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "I3d7noxypEv9Szc1/MD7AIAmrgcX9YEpx1EtFoTCoWM="
+        },
+        "0.37.3-flask.1": {
+          "checksum": "mYgoreKol2M0vXCADK74P5y76F2ik5+/6WNiuYUmTug="
+        },
+        "1.0.0": {
+          "checksum": "dbAcz7LgrYbcKyQ/mmLD6xFyfNTPCAeLiOXh9Yq922k="
+        }
+      }
+    },
+    "npm:@kleros/scout-snap": {
+      "id": "npm:@kleros/scout-snap",
+      "metadata": {
+        "name": "Kleros Scout",
+        "author": {
+          "name": "Kleros",
+          "website": "https://kleros.io/"
+        },
+        "website": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps",
+        "summary": "A Snap that retrieves contract metadata from the Kleros Curate registries",
+        "description": "This Snap pulls contract metadata from Kleros's decentralized token curated registries to provide insights to the contract you are interacting with. After installing the Snap, you will see it in the transaction confirmation window.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/06/VAR-Kleros-Scout.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://t.me/KlerosCurate",
+          "faq": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/faqs",
+          "knowledgeBase": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/knowledge-base"
+        },
+        "sourceCode": "https://github.com/kleros/scout-snap"
+      },
+      "versions": {
+        "1.1.0": {
+          "checksum": "z/7MIS7rM2gG7vjtY54Sv3pnvzItMnhooR22Svk6QkI="
+        }
+      }
+    },
+    "npm:tezos-metamask-snap": {
+      "id": "npm:tezos-metamask-snap",
+      "metadata": {
+        "name": "Tezos Wallet",
+        "author": {
+          "name": "trilitech",
+          "website": "https://www.trili.tech/"
+        },
+        "website": "https://metamask.tezos.com/",
+        "summary": "Tezos Wallet allows you to use your MetaMask wallet to interact with Tezos dapps, specifically for signing payloads and operations.",
+        "description": "Tezos Wallet allows you to use your MetaMask wallet to interact with Tezos dapps, specifically for signing payloads and operations.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12543946/Sayfer.-.2023-06.Penetration.Testing.Report.for.Tezos.Metamask.Snap.Application.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:metamask-snap@trili.tech",
+          "faq": "https://github.com/airgap-it/tezos-metamask-snap/wiki/FAQs"
+        },
+        "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "gZ8KD6mLrT9pHe/Lw3RBxFGg5d3ilAUFmEgAenZ5F/s="
+        }
+      }
+    },
+    "npm:mina-portal": {
+      "id": "npm:mina-portal",
+      "metadata": {
+        "name": "MinaPortal",
+        "author": {
+          "name": "SotaTek",
+          "website": "https://www.sotatek.com/"
+        },
+        "website": "https://minaportal.sotatek.works/",
+        "summary": "Interact with Mina protocol using MetaMask.",
+        "description": "Interact with Mina protocol using MetaMask. After installing the Snap, visit the website to manage your Mina account.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/08/VAR-Mina-Snap-V101.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://github.com/sotatek-dev/mina-snap/wiki/FAQ#how-do-i-reach-out-for-mina-snap-support"
+        },
+        "sourceCode": "https://github.com/sotatek-dev/mina-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "SZYe7fY1/31ROYJedpOHg2JA4clXRQ1/HLBbqDgedPI="
+        },
+        "0.1.0": {
+          "checksum": "PXAFCD+unlv8O9DOd0ZpBxcVW5ktGUPVlCmbsI2BR98="
+        }
+      }
+    },
+    "npm:@pianity/arsnap": {
+      "id": "npm:@pianity/arsnap",
+      "metadata": {
+        "name": "Arweave Wallet",
+        "author": {
+          "name": "Pianity",
+          "website": "https://pianity.com/"
+        },
+        "website": "https://arsnap.org/",
+        "summary": "Access Arweave through MetaMask and interact with Arweave dapps.",
+        "description": "Access Arweave through MetaMask and interact with Arweave dapps.\n\nAfter installing the Snap, visit the website to manage your Arweave account.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/pianity-snap"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/NW5RqQP338",
+          "faq": "https://github.com/pianity/arsnap/blob/main/packages/arsnap/FAQ.md"
+        },
+        "sourceCode": "https://github.com/pianity/arsnap"
+      },
+      "versions": {
+        "0.2.2": {
+          "checksum": "zyeeE8ml0+Y29G8TiTp9oIpJFraGWetutzkHt7i8b78="
+        },
+        "0.2.1": {
+          "checksum": "5QhJ/Ojl+ArgAwok95ia+dNCMb9rjmCR0NmwDK8NnPc="
+        }
+      }
+    },
+    "npm:btcsnap": {
+      "id": "npm:btcsnap",
+      "metadata": {
+        "name": "Zion",
+        "author": {
+          "name": "Account Labs",
+          "website": "https://www.accountlabs.com/"
+        },
+        "website": "https://btc.justsnap.io/",
+        "summary": "The world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.",
+        "description": "Zion is the world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.\n\nAfter installing the Snap, visit the website to manage your Bitcoin accounts.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20BTCSnap_en-us.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:snap@accountlabs.com",
+          "faq": "https://btc.justsnap.io/faq",
+          "knowledgeBase": "https://btc.justsnap.io/base-knowledge"
+        },
+        "sourceCode": "https://github.com/snapdao/btcsnap"
+      },
+      "versions": {
+        "2.0.3": {
+          "checksum": "Ci79gfFXP8eVY9fnvOFuOHycz7QairyYhbzbcuCKrNY="
+        }
+      }
+    },
+    "npm:@unipasswallet/unipass-snap": {
+      "id": "npm:@unipasswallet/unipass-snap",
+      "metadata": {
+        "name": "UniPass",
+        "author": {
+          "name": "Account Labs",
+          "website": "https://www.accountlabs.com/"
+        },
+        "website": "https://snap.unipass.xyz/",
+        "summary": "UniPass is a stablecoin payment product designed to enhance your MetaMask experience by harnessing the power of smart contract wallet capabilities.",
+        "description": "UniPass is a stablecoin payment product designed to enhance your MetaMask experience by harnessing the power of smart contract wallet capabilities.\n\nAfter installing the Snap, visit the website to connect and explore all the available features.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/UniPassID/UniPass-Snap/blob/main/audits/2023-07-SlowMist%20Audit%20Report.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:unipass-snap-support@accountlabs.com",
+          "faq": "https://accountlabs.notion.site/UniPass-FAQ-f14aee595f694f71812588309e62c5be",
+          "knowledgeBase": "https://accountlabs.notion.site/UniPass-Document-90ee049fb60b4601a2e3b43e3c5a7e1d"
+        },
+        "sourceCode": "https://github.com/UniPassID/UniPass-Snap/"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "ShI025dlcw6qUy79VxlSuy+eWmVkNTfZp4K00sZlQRU="
+        }
+      }
+    },
+    "npm:threat-intel-snap": {
+      "id": "npm:threat-intel-snap",
+      "metadata": {
+        "name": "Threat Intel",
+        "author": {
+          "name": "Demystify.Network",
+          "website": "https://demystify.network/"
+        },
+        "website": "https://demystify.network/",
+        "summary": "Protect yourself from hacking, spamming, and phishing with timely risk intelligence right before you approve the transaction.",
+        "description": "Threat Intel Snap by Demystify Network protects MetaMask users by providing timely risk intelligence right before you approve the transaction in MetaMask.\n\nAfter installing the Snap, you will see it in the transaction confirmation window.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://demystify.network/images/2023-08-Metamask-Snap-Demystify-Network.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@demystify.network",
+          "faq": "https://demystify.network/faq.html"
+        },
+        "sourceCode": "https://github.com/demystify-network/ThreatIntelligence"
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "aG7zXvhqoRgIygI8uuF/qA2G35sWv7p1CqTVMgIcz5M="
+        },
+        "0.1.4": {
+          "checksum": "fSYoxcUAJrXDojueuozAf2ZhFg3hgiKItFe7ibDoBF8="
+        }
+      }
+    },
+    "npm:@forta-network/metamask-snap": {
+      "id": "npm:@forta-network/metamask-snap",
+      "metadata": {
+        "name": "Forta",
+        "author": {
+          "name": "Forta Network",
+          "website": "https://forta.org/"
+        },
+        "website": "https://docs.forta.network/en/latest/Forta-for-Metamask/",
+        "summary": "Automatically scans the addresses in your pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a “high-risk” or “low-risk” warning message to the user.",
+        "description": "The Forta Snap for MetaMask automatically scans the addresses in your pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a “high-risk” or “low-risk” warning message to the user.\n\nAfter installing the Snap, you will see it in the transaction confirmation window.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Forta-Metamask-Snap-7e6e171e836b40adb1465cf2ae090e4d"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.gg/nFAqfz4SH7",
+          "knowledgeBase": "https://docs.forta.network/en/latest/Forta-for-Metamask/"
+        },
+        "sourceCode": "https://github.com/forta-network/metamask-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "469DK2JBX0fSBVhcwRSai5AHDXFaKL5EWuBokMoEWFY="
+        },
+        "0.1.2": {
+          "checksum": "FTwRj3N+NpVeq0WO7zmRY9tXjWZBoEcOANgnQ8i+Y38="
+        }
+      }
+    },
+    "npm:@metamask/get-locale-example-snap": {
+      "id": "npm:@metamask/get-locale-example-snap",
+      "metadata": {
+        "name": "Get Locale Example Snap"
+      },
+      "versions": {
+        "0.38.1-flask.1": {
+          "checksum": "7u3+H0DxS/50QglAzBGJptTwr1axVoUErCiXeL4eevY="
+        },
+        "1.0.0": {
+          "checksum": "XY2MC1SyQ2H5oBn47Tu9HSB/+pNFzYkNXVFSXY1jHco="
+        }
+      }
+    },
+    "npm:@metamask/lifecycle-hooks-example-snap": {
+      "id": "npm:@metamask/lifecycle-hooks-example-snap",
+      "metadata": {
+        "name": "Lifecycle Hooks Example Snap"
+      },
+      "versions": {
+        "0.38.0-flask.1": {
+          "checksum": "4DHXPu5lFAka46ohpDpyfwcSjT73s+nnZnO8PrVEr18="
+        },
+        "1.0.0": {
+          "checksum": "TszJ60KeknYWFD5tY/w/PMOk+cA5eeeaAkzyYbPqwYw="
+        }
+      }
+    },
+    "npm:@tenderly/metamask-snap": {
+      "id": "npm:@tenderly/metamask-snap",
+      "metadata": {
+        "name": "Tenderly TX Preview",
+        "author": {
+          "name": "Tenderly",
+          "website": "https://tenderly.co/"
+        },
+        "website": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap",
+        "summary": "Preview transactions before sending them on-chain to get valuable insights, avoid failed transactions, and save funds. Get human-readable information on transferred assets with corresponding dollar values for ERC-20 tokens and NFTs.",
+        "description": "Preview transactions before sending them on-chain to get valuable insights, avoid failed transactions, and save funds. Get human-readable information on transferred assets with corresponding dollar values for ERC-20 tokens and NFTs.\n\nThe Tenderly TX Preview insight will be displayed in the transaction confirmation flow. Before you can see the insight, you must configure the Snap with your Tenderly account. Visit the website to learn more.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/Tenderly/tenderly-snap/blob/main/audits/2023-08-Metamask-Snap-PT-for-Tenderly.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:metamask.snap@tenderly.co",
+          "faq": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap"
+        },
+        "sourceCode": "https://github.com/Tenderly/tenderly-snap"
+      },
+      "versions": {
+        "1.2.1": {
+          "checksum": "vNrNCKPLLktsGjVi1vgs3YKLy4zdPJZ4yMueXNGvWTA="
+        },
+        "1.2.0": {
+          "checksum": "OLZtG0WTFYJ+WwX+dAcZ8UGyMdN+M5Ewu9ypNohFiRg="
+        }
+      }
+    },
+    "npm:@goplus/riskdetect-snap": {
+      "id": "npm:@goplus/riskdetect-snap",
+      "metadata": {
+        "name": "Assets Risk Detection",
+        "author": {
+          "name": "GoPlus Security",
+          "website": "https://gopluslabs.io/"
+        },
+        "website": "https://snaps.gopluslabs.io/",
+        "summary": "Detect risks of user assets with GoPlus Security.",
+        "description": "A MetaMask Snap that can detect risks of user assets, supported by GoPlus Security.\n\nAfter installing the Snap, visit the website to connect your account and run the detection.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12554521/SlowMist.Audit.Report.-.Riskdetect-snap.1.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:service@gopluslabs.io",
+          "faq": "https://snaps.gopluslabs.io/faq/"
+        },
+        "sourceCode": "https://github.com/GoPlusSecurity/riskdetect-snap"
+      },
+      "versions": {
+        "0.1.8": {
+          "checksum": "T71m8iWOll6TqZuk9zqeV+JxvhBZSn4SbMBkifAKPgU="
+        }
+      }
+    },
+    "npm:@solflare-wallet/solana-snap": {
+      "id": "npm:@solflare-wallet/solana-snap",
+      "metadata": {
+        "name": "Solana Wallet",
+        "author": {
+          "name": "Solflare",
+          "website": "https://solflare.com/"
+        },
+        "website": "https://solflare.com/metamask",
+        "summary": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
+        "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.\n\nAfter installing the Snap, visit the website to connect and manage your Solana accounts.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://academy.solflare.com/guides",
+          "faq": "https://solflare.com/metamask"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/solflare-snap"
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
+        }
+      }
+    },
+    "npm:@rise-wallet/aptos-snap": {
+      "id": "npm:@rise-wallet/aptos-snap",
+      "metadata": {
+        "name": "Aptos Wallet",
+        "author": {
+          "name": "Rise Wallet",
+          "website": "https://risewallet.io/"
+        },
+        "summary": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
+        "description": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask. Website coming soon.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://help.risewallet.io/"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/aptos-snap"
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "UIzV+8niJT7uw4bUlBp1wa0uNqnPjzgMMPLLlXeh9Ts="
+        }
+      }
+    },
+    "npm:@elli-wallet/sui-snap": {
+      "id": "npm:@elli-wallet/sui-snap",
+      "metadata": {
+        "name": "Sui Wallet",
+        "author": {
+          "name": "Elli Wallet",
+          "website": "https://elliwallet.com/"
+        },
+        "summary": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
+        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask. Website coming soon.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://help.elliwallet.com/"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/sui-snap"
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "ABz7nLrozZ2ac3pXG6wbyW6qJcWoOOC6QxGdn16TF+k="
+        }
+      }
+    },
+    "npm:@vegaprotocol/snap": {
+      "id": "npm:@vegaprotocol/snap",
+      "metadata": {
+        "name": "Vega Protocol",
+        "author": {
+          "name": "Vega",
+          "website": "https://vega.xyz/"
+        },
+        "website": "https://vegaprotocol.eth.limo/",
+        "summary": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain.",
+        "description": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain. Vega markets are created and controlled by the Vega community and any trader operating as a market maker can commit to provide liquidity and share fee revenue.\n\nThe Vega Snap adds support for the Vega blockchain to MetaMask. After installing the Snap, visit the website and click 'Get Started', then 'Connect via Vega MetaMask Snap.'",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Vega-Snap-7545db216bee4e128cfcac16d41896b6"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://vega.xyz/discord"
+        },
+        "sourceCode": "https://github.com/vegaprotocol/vega-snap"
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "/VwEwLqeprvwWlfYuNc2HLWbZbUd7ljk4ZVQjR19+qs="
+        }
+      }
+    },
+    "npm:@blockchain-lab-um/masca": {
+      "id": "npm:@blockchain-lab-um/masca",
+      "metadata": {
+        "name": "Masca",
+        "author": {
+          "name": "Blockchain Lab:UM",
+          "website": "https://blockchain-lab.um.si/?lang=en"
+        },
+        "website": "https://masca.io/app",
+        "summary": "A Snap that enables MetaMask to be a universal decentralized identity wallet - from managing your identifiers (DIDs) to handling credentials (VCs).",
+        "description": "Masca enables everyone to build their decentralized identity by expanding MetaMask with functionalities to manage your identifiers and credentials (based on DIDs, VCs, and VPs). Store your credentials locally or on Ceramic Network and receive/share data over popular identity protocols, such as OID4VC and Polygon ID. This makes Masca a truly universal identity solution, perfect for Web3 explorers and non-Web3 native users. Any website can connect to Masca to access identity data, and dapp developers can already start with the integration!\n\nAfter installing the Snap, visit the website to manage your decentralized identity.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/blog/audits/audit-of-masca-metamask-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/M5xgNz7TTF",
+          "knowledgeBase": "https://docs.masca.io/"
+        },
+        "sourceCode": "https://github.com/blockchain-lab-um/masca"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "nVKFpAn6RCNMM8UOH344F+tQUP6pxGjzisRXGBYf550="
+        }
+      }
+    },
+    "npm:@leapwallet/metamask-cosmos-snap": {
+      "id": "npm:@leapwallet/metamask-cosmos-snap",
+      "metadata": {
+        "name": "Leap Cosmos Wallet",
+        "author": {
+          "name": "Leap",
+          "website": "https://www.leapwallet.io/"
+        },
+        "website": "https://cosmos.leapwallet.io/snaps",
+        "summary": "Securely manage keys, connect to Cosmos dapps, and sign transactions",
+        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12544468/Sayfer.-.2023-08.Penetration.Testing.Report.for.LeapWallet.Snap.-.Updated.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee",
+          "faq": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee#b9f076f6aeb947818b449a058cd2967b"
+        },
+        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
+      },
+      "versions": {
+        "0.1.16": {
+          "checksum": "diCk3Ht/3Fhbn089viNkY9N6dr41wCMm1KR0wJhLzm0="
+        }
+      }
+    },
+    "npm:web3-security-snap": {
+      "id": "npm:web3-security-snap",
+      "metadata": {
+        "name": "Web3 Security",
+        "author": {
+          "name": "AnChain.AI",
+          "website": "https://www.anchain.ai/"
+        },
+        "website": "https://snap.anchainai.com/",
+        "summary": "Integrates BEI Risk Scores into MetaMask",
+        "description": "By seamlessly integrating AnChain.AI's revolutionary AI-powered Blockchain Ecosystem Intelligence (BEI) into your MetaMask wallet, Web3 Security Snap empowers you to make informed decisions and engage fearlessly with the digital economy.\n\nAfter installing the Snap, you will see it in the transaction confirmation window. You can also visit the website to learn more about how to use it.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12544383/Sayfer.-.2023-08.Penetration.Testing.Report.for.AnChain.Snap.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.gg/RZ84RUNuNF",
+          "faq": "https://snap.anchainai.com/#faq"
+        },
+        "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "hWHPH9JldbbLDgIYWj0i4rUs2BSwNbYANYivMI30fqA="
+        }
+      }
+    },
+    "npm:@rarimo/rarime": {
+      "id": "npm:@rarimo/rarime",
+      "metadata": {
+        "name": "RariMe",
+        "author": {
+          "name": "Rarimo",
+          "website": "https://rarimo.com/"
+        },
+        "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
+        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.\n\nWebsite coming soon.",
+        "audits": [
+          {
+            "auditor": "Halborn",
+            "report": "https://github.com/rarimo/rarime/blob/main/audits/halborn_2023-08-28.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/Bzjm5MDXrU",
+          "knowledgeBase": "https://rarimo.notion.site/RariMe-Knowledge-Doc-bf401216ae604f0faa490265f2ccd86f",
+          "faq": "https://rarimo.notion.site/rariME-FAQ-19ebf31d8eaf4475aa8e64a1cc558800"
+        },
+        "sourceCode": "https://github.com/rarimo/rarime"
+      },
+      "versions": {
+        "0.4.0": {
+          "checksum": "lv/PkqOxGt10NAk8owemNQppfyP01GEDI8X5WMy2xFM="
+        },
+        "0.3.2": {
+          "checksum": "ARaGpxTRetiQNbBx3xvH9u8460FSGwg+LduL1fGQqjs="
+        }
+      }
+    },
+    "npm:@partisiablockchain/snap": {
+      "id": "npm:@partisiablockchain/snap",
+      "metadata": {
+        "name": "Partisia Blockchain",
+        "author": {
+          "name": "Partisia Blockchain",
+          "website": "https://partisiablockchain.com/"
+        },
+        "website": "https://browser.partisiablockchain.com/",
+        "summary": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.",
+        "description": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.\n\nAfter installing the Snap, visit the website to Sign in with MetaMask and manage your Partisia account.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/09/VAR-Partisia-Blockchain-Snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://partisiablockchain.gitlab.io/documentation/get-support-from-pbc-community.html"
+        },
+        "sourceCode": "https://gitlab.com/partisiablockchain/tools/snap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "xrF1SkRRiUN/iuuxTO3lzF/gTciYRVVSzRap5soRhnA="
+        }
+      }
+    },
+    "npm:saferoot-metamask-snap": {
+      "id": "npm:saferoot-metamask-snap",
+      "metadata": {
+        "name": "Saferoot",
+        "author": {
+          "name": "Saferoot",
+          "website": "https://www.saferoot.io/"
+        },
+        "website": "https://app.saferoot.io/",
+        "summary": "Saferoot intercepts dangerous transactions in real-time and instantly moves your assets to safety.",
+        "description": "Saferoot intercepts dangerous transactions in real-time and instantly moves your assets to safety.\n\nAfter installing the Snap, visit Saferoot's website to customize your security settings.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/blog/audits/audit-of-saferoot-metamask-snap/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@saferoot.io",
+          "knowledgeBase": "https://www.saferoot.io/metamask-snaps-knowledge-base"
+        },
+        "sourceCode": "https://github.com/Staging-Labs/Saferoot-Snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "oojLxkBTSGsFI1zc3/ipS/a8GMWG4fnWy9cphIf5LAs="
+        }
+      }
+    },
+    "npm:keychain-snap": {
+      "id": "npm:keychain-snap",
+      "metadata": {
+        "name": "EthSign Keychain",
+        "author": {
+          "name": "EthSign",
+          "website": "https://www.ethsign.xyz/"
+        },
+        "website": "https://docs.ethsign.xyz/ethsign-keychain/",
+        "summary": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.",
+        "description": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.\n\nThis Snap is designed to work with a companion extension or with dapps that have implemented the EthSign Keychain API. After installing the Snap, visit the website to learn more.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/EthSign-keychain-snap-acf38810de8544f9b07beadae5014675"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/Wvhp9dWdSg"
+        },
+        "sourceCode": "https://github.com/EthSign/keychain-snap"
+      },
+      "versions": {
+        "0.3.6": {
+          "checksum": "REl6dY3tSDpChyXGJZjfDuKVrFNCt86ZPfs+jNRmIPU="
+        }
+      }
+    },
+    "npm:@drift-labs/snap-solana": {
+      "id": "npm:@drift-labs/snap-solana",
+      "metadata": {
+        "name": "Connect by Drift",
+        "author": {
+          "name": "Drift Protocol",
+          "website": "https://www.drift.trade/"
+        },
+        "summary": "An open-sourced Solana Snap that allows MetaMask users to natively interact with Solana applications.",
+        "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.\n\nAfter installing the Snap, visit the website and click Launch App to try it. Please note: Drift may not be available in your region.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/fMcZBH8ErM"
+        },
+        "sourceCode": "https://github.com/drift-labs/snap-solana"
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "YUVSrvkkDIlTTdFwuWB+5SrY4OETUQefAt9oyt5pYag="
+        }
+      }
+    },
+    "npm:@xmtp/snap": {
+      "id": "npm:@xmtp/snap",
+      "metadata": {
+        "name": "Sign in with XMTP",
+        "author": {
+          "name": "XMTP",
+          "website": "https://xmtp.org/"
+        },
+        "website": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap",
+        "summary": "Use the “Sign in with XMTP” MetaMask Snap to securely and conveniently sign in to any web app built with XMTP.",
+        "description": "Use the “Sign in with XMTP” MetaMask Snap to securely and conveniently sign in to any web app built with XMTP.\n\nWhen you install the Snap, you give it permission to store your XMTP user keys in MetaMask secure storage. From then on, when you use an app you've authorized to work with Sign in with XMTP, the Snap seamlessly and securely allows the app to use those keys without accessing the key material directly, enabling you to start messaging without needing to provide a signature.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/blog/audits/audit-of-xmtp-metamask-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@xmtp.com",
+          "knowledgeBase": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap"
+        },
+        "sourceCode": "https://github.com/xmtp/snap"
+      },
+      "versions": {
+        "1.2.2": {
+          "checksum": "pHhTGrqjGkNoK/2wb64Zqxpo3TFnE2a5smfVt45VCRM="
+        }
+      }
+    },
+    "npm:@cubist-labs/cubesigner-snap": {
+      "id": "npm:@cubist-labs/cubesigner-snap",
+      "metadata": {
+        "name": "CubeSigner",
+        "author": {
+          "name": "Cubist",
+          "website": "https://cubist.dev/"
+        },
+        "website": "https://cubist.dev/cubesigner-snap",
+        "summary": "An API for developers to manage MetaMask users' EVM/non-EVM keys in secure hardware.",
+        "description": "A Snap for Snap- and dapp-developers to safely manage EVM, Bitcoin, Solana, and other keys on behalf of MetaMask end users. Use the CubeSigner API to generate keys and sign transactions completely within server-side secure hardware. Your users' keys are never exposed in memory to attackers, and there's no risk of accidentally leaking keys. Visit https://cubist.dev/cubesigner-snap to get started.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/09/VAR-Cubist-Snap4.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/Aw46GsGSy7",
+          "faq": "https://github.com/cubist-labs/CubeSigner-Snap/discussions/2"
+        },
+        "sourceCode": "https://github.com/cubist-labs/CubeSigner-Snap"
+      },
+      "versions": {
+        "0.2.13": {
+          "checksum": "AvyU4UjF8b56fVe5TuVg2OowAV7j3YwwRJ5tuz/Qpr8="
+        }
+      }
+    },
+    "npm:@cosmsnap/snap": {
+      "id": "npm:@cosmsnap/snap",
+      "metadata": {
+        "name": "Cosmos Extension",
+        "author": {
+          "name": "Mystic Labs",
+          "website": "https://www.mysticlabs.xyz/"
+        },
+        "website": "http://metamask.mysticlabs.xyz/",
+        "summary": "Cosmos Extension that adds Cosmos support to MetaMask.",
+        "description": "Cosmos Extension aims to add full support of MetaMask, a highly popular Ethereum wallet, to all Cosmos SDK blockchains, potentially opening the door to over 30 million Ethereum users and stimulating growth for every project in the Cosmos ecosystem.\n\nAfter installing the Snap, visit the website to manage your Cosmos account.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Cosmos-Snap-ef7a8ccde39948e7bece99e86239ae6b"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:help@mysticlabs.xyz",
+          "knowledgeBase": "https://metamask.mysticlabs.xyz/general",
+          "faq": "https://metamask.mysticlabs.xyz/faq"
+        },
+        "sourceCode": "https://github.com/cosmos/snap"
+      },
+      "versions": {
+        "0.1.17": {
+          "checksum": "O3k1mxMGVbP98FqhLnd57TJxwMWUsG+W0YwDNMrJpnY="
+        },
+        "0.1.16": {
+          "checksum": "G6BNnjUBiC+8a0LSrhRyG/mffBn3hYTTO2Uk1mk49I4="
+        }
+      }
+    },
+    "npm:@shapeshiftoss/metamask-snaps": {
+      "id": "npm:@shapeshiftoss/metamask-snaps",
+      "metadata": {
+        "name": "ShapeShift Multichain",
+        "author": {
+          "name": "ShapeShift",
+          "website": "https://shapeshift.com/"
+        },
+        "website": "https://app.shapeshift.com/",
+        "summary": "Support 11 chains including Bitcoin, Dogecoin, Cosmos, Litecoin, Binance Chain, THORChain, Bitcoin Cash and more in one Snap.",
+        "description": "Support 11 chains including Bitcoin, Dogecoin, Cosmos, Litecoin, Binance Chain, THORChain, Bitcoin Cash and more in one Snap.\n\nAdd the Snap to your MetaMask, visit https://app.shapeshift.com, and connect with MetaMask to start using all the chains supported.\n\nPlease note: you must connect Account 1 to the ShapeShift website to use all the chains supported by the Snap. Hardware wallets or imported private keys are not supported with this feature.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/07/metamask/partner-snaps-shapeshift-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/shapeshift",
+          "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
+        },
+        "sourceCode": "https://github.com/shapeshift/metamask-snaps"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
+        }
+      }
+    },
+    "npm:@consensys/starknet-snap": {
+      "id": "npm:@consensys/starknet-snap",
+      "metadata": {
+        "name": "Starknet",
+        "author": {
+          "name": "Consensys",
+          "website": "https://consensys.io/"
+        },
+        "website": "https://snaps.consensys.io/starknet",
+        "summary": "Deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
+        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
+        "audits": [
+          {
+            "auditor": "Cobalt",
+            "report": "https://drive.google.com/file/d/1Q-Ee7QewVUoAx--x7w_T7WQcvc5MHqVr/view"
+          },
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/06/metamask/partner-snaps-starknetsnap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/hYpHRjK"
+        },
+        "sourceCode": "https://github.com/Consensys/starknet-snap"
+      },
+      "versions": {
+        "2.2.0": {
+          "checksum": "uc3NHYfaJxcyFoZdJjyDJWswSDGQN3ST7LbBDGSYlOQ="
+        }
+      }
+    },
+    "npm:@web3mq/snap": {
+      "id": "npm:@web3mq/snap",
+      "metadata": {
+        "name": "Web3MQ",
+        "author": {
+          "name": "Web3MQ",
+          "website": "https://www.web3mq.com/"
+        },
+        "website": "https://web3mq-snap-demo.pages.dev/",
+        "summary": "Web3-native decentralized communication protocol. Encrypted, efficient and borderless.",
+        "description": "Web3-native decentralized communication protocol. Encrypted, efficient and borderless.\n\nWeb3MQ Snap provides more possibilities for building web3 social dapps. The website shows you an example of how it works. Read the documentation on GitHub to learn how to integrate the Snap with your dapp.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12604989/Least_Authority_Generative_Labs_MetaMask_Snap_Updated_Final_Audit.pdf"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "faq": "https://s3labs.notion.site/Web3MQ-Snap-Frequently-Asked-Questions-c705bcf4a0604b85830cca2283d0ab7b"
+        },
+        "sourceCode": "https://github.com/Generative-Labs/Web3MQ-Snap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "YeL3PfCT8hjTTHED2AD0BvsbkjNEjmC3pLxzjgXLFqE="
+        }
+      }
+    }
+  },
+  "blockedSnaps": [
+    {
+      "id": "npm:@consensys/starknet-snap",
+      "versionRange": "<0.1.11"
+    },
+    {
+      "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
+    }
+  ]
 }
