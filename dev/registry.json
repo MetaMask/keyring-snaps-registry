@@ -3,14 +3,14 @@
     "id": "a51ea3a8-f1b0-4613-9440-b80e2236713b",
     "snapId": "npm:@metamask/snap-simple-keyring-snap",
     "iconUrl": "",
-    "snapTitle": "MetaMask Simple Keyring",
-    "snapSlug": "Secure your account with MetaMask Mobile",
-    "snapDescription": "A simple private key is a randomly generated string of characters that is used to sign transactions. This private key is stored securely within this snap.",
+    "snapTitle": "MetaMask Simple Keyring Snap",
+    "snapSlug": "Example account Snap",
+    "snapDescription": "This is a simple account Snap used to test the Keyring API. Don't use it for non-development purposes.",
     "tags": ["EOA"],
     "developer": "MetaMask",
-    "website": "https://metamask.github.io/snap-simple-keyring/latest/",
+    "website": "https://metamask.github.io/snap-simple-keyring/1.0.1/",
     "auditUrls": [],
-    "version": "0.2.4",
-    "lastUpdated": "Oct 5, 2023"
+    "version": "1.0.1",
+    "lastUpdated": "Oct 12, 2023"
   }
 }
