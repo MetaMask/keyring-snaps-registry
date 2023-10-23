@@ -8,9 +8,9 @@
     "snapDescription": "This is a simple account Snap used to test the Keyring API. Don't use it for non-development purposes.",
     "tags": ["EOA"],
     "developer": "MetaMask",
-    "website": "https://metamask.github.io/snap-simple-keyring/1.0.1/",
+    "website": "https://metamask.github.io/snap-simple-keyring/1.1.0/",
     "auditUrls": [],
-    "version": "1.0.1",
-    "lastUpdated": "Oct 12, 2023"
+    "version": "1.1.0",
+    "lastUpdated": "Oct 23, 2023"
   }
 }
